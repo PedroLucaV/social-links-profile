@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Inter;
+    src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+main{
+    background-color: hsl(0, 0%, 12%);
+    height: 600px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 2rem;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.title{
+    text-align: center;
+}
+
+img{
+    border-radius: 100%;
+    width: 100px;
+}
+
+h1{
+    font-size: 26px;
+}
+
+h2{
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+}
+
+.buttons{
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.buttons button{
+    font-weight: 700;
+    height: 40px;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 10px;
+}
+
+.buttons button:hover{
+    transition: 0.5s;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    cursor: pointer;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
